@@ -16,8 +16,6 @@ const allComments = []
 const commentField = document.getElementById('list')
 const commentList = commentField.appendChild(document.createElement('ul'))
 
-const allBtns = document.getElementsByTagName('button')
-
 //Timer
 function timer() {
     return setInterval(timerField, 1000)
